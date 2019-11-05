@@ -1,0 +1,56 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Weather Logo"
+    src="../assets/cloud-moon-solid.svg"
+  />
+  <span>Weather App</span>
+    <div class="spacer"></div>
+</div>
+
+<div class="content" role="main">
+
+  <!-- Highlight Card -->
+  <div class="card highlight-card card-small">
+
+    <svg id="rocket" alt="Rocket Ship" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">
+      <g id="Group_83" data-name="Group 83" transform="translate(-141 -696)">
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="53.839" cy="50.839" r="59.839" transform="translate(90, 696)" fill="#dd0031"/>
+
+          <path id="Path_34" data-name="Path 34" d="M 25,60
+             a 20,20 1 0,0 0,40
+             h 50
+             a 20,20 1 0,0 0,-40
+             a 10,10 1 0,0 -15,-10
+             a 15,15 1 0,0 -35,10
+             z" cx="46.839" cy="50.839" r="50.839" transform="translate(140 675)" fill="#fff"/>
+
+
+      </g>
+    </svg>
+
+    <span>{{ title }} enjoy! </span>
+
+    <svg id="rocket-smoke" alt="Rocket Ship Smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
+      <path id="Path_40" data-name="Path 40" d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z" transform="translate(-147.025 -140.939)" fill="#f5f5f5"/>
+    </svg>
+  </div>
+  <div class='container'>
+    <app-weather-card></app-weather-card>
+  </div>
+
+
+
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+<router-outlet></router-outlet>
