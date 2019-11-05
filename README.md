@@ -1,6 +1,6 @@
 # Weather Angular APP
 
-Prove of concept in Angular 8.3.17 of a simple weather app to evaluate the technology.
+Prove of concept in Angular 8.3.17 of a simple weather app in order to evaluate the technology viability.
 
 This APP powered with Bootstrap 4, uses the https://weatherstack.com/ service to retrieve the current weather in any city over the world.
 
